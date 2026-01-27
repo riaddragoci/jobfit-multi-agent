@@ -39,9 +39,18 @@ Given a plain-text Job Description and CV, the tool:
 
 ## Architecture Overview
 
-Job Description ─┐
-                 ├─▶ Matcher & Scorer ─▶ Advice & Rewrite ─▶ Report
-CV Text ─────────┘
+Input:
+- Job Description
+- CV Text
+
+Processing:
+- JD Extractor
+- CV Parser
+- Matcher & Scorer
+- Advice & Rewrite
+
+Output:
+- Markdown Report
 
 ---
 
