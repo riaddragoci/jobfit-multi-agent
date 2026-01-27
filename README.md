@@ -39,13 +39,34 @@ Given a plain-text Job Description and CV, the tool:
 
 ## Architecture Overview
 
-Job Description ─┐
-├─ JD Extractor Agent ─┐
-CV Text ─────────┘ │
-├─ Matcher + Scorer ── Advice Agent
-CV Parser Agent ────────────────────────┘ │
-├─ CV Rewrite Agent
-└─ Markdown Report
+┌────────────────────┐        ┌────────────────────────┐
+│  Job Description   │───────▶│  JD Extractor Agent     │
+└────────────────────┘        └──────────┬─────────────┘
+                                         │
+                                         ▼
+                                ┌──────────────────┐
+                                │ Matcher & Scorer │
+                                └──────────┬───────┘
+                                           │
+        ┌────────────────────┐             │
+        │      CV Text       │─────────────┘
+        └──────────┬─────────┘
+                   ▼
+          ┌──────────────────┐
+          │  CV Parser Agent │
+          └──────────┬───────┘
+                     ▼
+              ┌──────────────────┐
+              │  Advice Agent    │
+              └──────────┬───────┘
+                         ▼
+              ┌──────────────────┐
+              │ CV Rewrite Agent │
+              └──────────┬───────┘
+                         ▼
+              ┌──────────────────┐
+              │ Markdown Report  │
+              └──────────────────┘
 
 
 ---
