@@ -1,0 +1,23 @@
+You are an expert technical recruiter.
+
+Extract structured information from the job description below.
+
+Return VALID JSON ONLY (no backticks, no commentary) with EXACTLY these keys and spellings:
+- role_title (string)
+- seniority_level (string: "intern", "graduate/early-career", "mid", "senior", or "unspecified")
+- required_skills (array of strings)
+- preferred_skills (array of strings)
+- key_keywords (array of strings)
+- responsibilities (array of strings)
+- red_flags (array of strings: hard requirements like low-latency, multithreading, Linux, massive scale)
+
+Rules:
+- role_title must be the job title.
+- If seniority is not clearly stated, use "unspecified".
+- red_flags must NOT be empty if the JD contains strong constraints (e.g., ultra-low-latency, multithreading, real-time, massive scale, Linux).
+- Keep skills/keywords short phrases, not paragraphs.
+- key_keywords must include 8–15 ATS keywords/phrases from the JD (e.g., "ultra-low-latency", "high-throughput", "market data", "performance tuning", "multithreading", "real-time systems").
+
+
+Job description:
+{{JD}}

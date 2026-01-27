@@ -1,0 +1,30 @@
+Name: Alex Morgan
+
+Summary:
+Computer Science graduate with strong foundations in software engineering, systems design,
+and data analysis. Experience building simulations, data pipelines, and analytical models.
+
+Skills:
+- Programming: Python, Java, C++
+- Data: Hadoop, Hive, MapReduce
+- Concepts: Data Structures, Algorithms, Event-Driven Systems
+
+Projects:
+
+Checkout System Simulation:
+- Designed and implemented an event-driven checkout simulation modeling customer flow
+- Built object-oriented components to manage queues and service lanes
+- Applied data structures and modular design principles
+
+Machine Learning Classification Model:
+- Built a supervised classification model using a public medical dataset
+- Performed data preprocessing, feature scaling, and model evaluation
+- Achieved high classification accuracy on test data
+
+Big Data Processing:
+- Designed a Hive-based data warehouse using star schema design
+- Implemented MapReduce jobs to aggregate large datasets
+- Queried and validated data stored in HDFS
+
+Education:
+BSc Computer Science

@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual envs
+.venv/
+venv/
+
+# Local/private inputs (DO NOT COMMIT)
+data/jd.txt
+data/cv.txt
+
+# Generated outputs (DO NOT COMMIT)
+outputs/
+
+# Editor/OS
+.vscode/
+.DS_Store
+Thumbs.db

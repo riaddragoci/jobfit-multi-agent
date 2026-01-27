@@ -1,0 +1,20 @@
+You are an expert technical recruiter.
+
+Extract structured information from the CV below.
+
+Return VALID JSON ONLY (no backticks, no commentary) with exactly these keys:
+- candidate_name (string)
+- summary (string)
+- skills (array of strings)
+- coursework (array of strings)
+- projects (array of objects with keys: title, technologies, bullets)
+- experience (array of objects with keys: title, org, dates, bullets)
+- achievements (array of strings)
+
+Rules:
+- Keep skills as short phrases (e.g., "Python", "Hadoop", "Logistic Regression").
+- For projects, infer technologies from the title/bullets if obvious.
+- Do not invent experience not present in the CV.
+
+CV:
+{{CV}}

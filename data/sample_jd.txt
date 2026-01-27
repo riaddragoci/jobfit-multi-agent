@@ -1,0 +1,21 @@
+Role: Software Engineer
+
+We are looking for a Software Engineer to join a high-performance engineering team
+building scalable, low-latency systems.
+
+Responsibilities:
+- Design and build efficient, reliable backend systems
+- Work with real-time data pipelines
+- Optimize systems for performance and scalability
+- Collaborate with cross-functional teams
+
+Requirements:
+- Strong proficiency in C++, Java, or Python
+- Solid understanding of data structures and algorithms
+- Experience with Linux/Unix environments
+- Familiarity with multithreading and concurrent systems
+- Understanding of real-time or low-latency systems is a plus
+
+Nice to have:
+- Experience with distributed systems
+- Exposure to performance tuning or systems programming
