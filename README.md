@@ -71,19 +71,19 @@ Example snippet:
 
 - Strong Matches:
 
-1) C++
+- C++
 
-2) Java
+- Java
 
-3) Python
+- Python
 
-4) Missing Requirements:
+- Missing Requirements:
 
-5) Multithreading
+- Multithreading
 
-6) Linux/Unix
+- Linux/Unix
 
-7) Real-time systems
+- Real-time systems
 
 ---
 
