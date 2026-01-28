@@ -67,24 +67,23 @@ The tool generates a structured report like:
 
 Example snippet:
 
-Match Score: 38 / 100
+- Match Score: 38 / 100
 
-Strong Matches:
+- Strong Matches:
 
-C++
+1) C++
 
-Java
+2) Java
 
-Python
+3) Python
 
-Missing Requirements:
+4) Missing Requirements:
 
-Multithreading
+5) Multithreading
 
-Linux/Unix
+6) Linux/Unix
 
-Real-time systems
-
+7) Real-time systems
 
 ---
 
@@ -99,15 +98,17 @@ Real-time systems
 
 ```bash
 pip install -r requirements.txt
+
 3) Install Ollama and pull a model
 ollama pull llama3.1:8b
 (You can change the model inside llm.py.)
 
-Quick Start (Demo)
+- Quick Start (Demo)
 Run using the provided sample files:
 
 python main.py --jd data/sample_jd.txt --cv data/sample_cv.txt --out outputs
-This will generate:
+
+- This will generate:
 
 outputs/
 ├─ report_YYYYMMDD_HHMM.md
@@ -118,36 +119,36 @@ outputs/
 └─ rewrite_YYYYMMDD_HHMM.json
 
 
-Design Philosophy
+- Design Philosophy
 This project intentionally does not:
 
-Inflate match scores
+- Inflate match scores
 
-Pretend missing skills exist
+- Pretend missing skills exist
 
-Rewrite CVs with invented tools or experience
+- Rewrite CVs with invented tools or experience
 
-Instead, it mirrors how strong candidates actually improve:
+- Instead, it mirrors how strong candidates actually improve:
 
-Identify gaps
+- Identify gaps
 
-Take targeted action
+- Take targeted action
 
-Rewrite truthfully
+- Rewrite truthfully
 
 Use Cases
 Portfolio project demonstrating applied AI + systems thinking
 
-Honest CV/JD alignment analysis
+- Honest CV/JD alignment analysis
 
-Career planning with concrete next steps
+- Career planning with concrete next steps
 
-Recruiter-style evaluation tooling
+- Recruiter-style evaluation tooling
 
-License
+- License
 MIT License — free to use, modify, and distribute.
 
-Author
+- Author
 Riad Dragoci
 Final-year Software Engineering student
 Built as a portfolio-quality AI systems project
