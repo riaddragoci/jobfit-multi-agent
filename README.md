@@ -116,6 +116,8 @@ outputs/
 ├─ match_YYYYMMDD_HHMM.json
 ├─ advice_YYYYMMDD_HHMM.json
 └─ rewrite_YYYYMMDD_HHMM.json
+
+
 Design Philosophy
 This project intentionally does not:
 
