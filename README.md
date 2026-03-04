@@ -26,11 +26,9 @@ JobFit uses a **multi-agent architecture** where specialized AI agents collabora
 
 ## 🖥️ Screenshots
 
-<!-- Add your own screenshots here -->
-<!-- ![Upload Page](screenshots/upload.png) -->
-<!-- ![Results Dashboard](screenshots/dashboard.png) -->
-
-*Screenshots coming soon — run the app locally to see the full dashboard!*
+![Upload Page](screenshots/upload.png)
+![Results Dashboard](screenshots/dashboard.png)
+![CV Rewrite Suggestions](screenshots/rewrite.png)
 
 ---
 
