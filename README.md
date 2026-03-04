@@ -179,6 +179,10 @@ jobfit-multi-agent/
 │   ├── cv_parser.txt
 │   ├── advice.txt
 │   └── rewriter.txt
+├── screenshots/                # App screenshots for README
+│   ├── upload.png
+│   ├── dashboard.png
+│   └── rewrite.png
 ├── data/                       # Sample inputs for testing
 │   ├── sample_cv.txt
 │   └── sample_jd.txt
