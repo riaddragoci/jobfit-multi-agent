@@ -1,21 +1,28 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
-*.pyd
-
-# Virtual envs
 .venv/
 venv/
+*.egg-info/
+dist/
+build/
 
-# Local/private inputs (DO NOT COMMIT)
-data/jd.txt
-data/cv.txt
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
 
-# Generated outputs (DO NOT COMMIT)
-outputs/
-
-# Editor/OS
+# IDE
 .vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
 .DS_Store
 Thumbs.db
+
+# Outputs
+outputs/
+*.log
