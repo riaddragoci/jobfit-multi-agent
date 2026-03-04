@@ -101,7 +101,7 @@ The system uses five specialized agents orchestrated through a FastAPI backend, 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/jobfit-multi-agent.git
+git clone https://github.com/riaddragoci/jobfit-multi-agent.git
 cd jobfit-multi-agent
 ```
 
