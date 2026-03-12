@@ -10,6 +10,10 @@
 
 ---
 
+## 🎬 Demo
+
+![Demo](screenshots/demo.gif)
+
 ## 📌 About
 
 JobFit uses a **multi-agent architecture** where specialized AI agents collaborate to provide a comprehensive analysis of how well your CV matches a target job description. Everything runs **locally** — no data is sent to external APIs.
